@@ -1,0 +1,28 @@
+# Put this in .bashrc
+#   [[ -s ${HOME}/.bashrc_custom ]] && source ${HOME}/.bashrc_custom
+
+# misc
+alias ll='ls -alrth'
+alias psgrep="ps aux | grep"
+alias e="emacs"
+alias cleanbak="rm -i *~"
+alias diffs="diff -y --suppress-common-lines"
+alias l="less -N"
+alias grep="grep --colour=auto"
+alias screen="screen -e ^Tt"
+
+# git
+alias gis="git status"
+alias gil="git log"
+alias giln="git log --name-only"
+alias gilp="git log -p"
+alias gilg="git log --graph"
+alias gils="git log --stat"
+alias gib="git branch"
+alias gresetall="git reset --hard HEAD"
+alias gco="git checkout"
+alias gdiff="git diff"
+alias gdiffm="git diff origin/master"
+alias gdiffn="git diff origin/master --name-only"
+alias gdiffc="git diff --cached"
+alias gwip="git commit -am 'wip'"

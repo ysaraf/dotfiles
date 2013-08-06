@@ -1,0 +1,10 @@
+escape	"^Tt"
+defutf8 on
+defscrollback
+
+sorendition "+b kG"
+hardstatus alwayslastline "%H %-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
+
+screen -t emacs 0
+screen -t bash 1
+
