@@ -1,4 +1,4 @@
-# Put this in .bashrc
+# Put this in .bash_profile or .bashrc
 #   [[ -s ${HOME}/.bashrc_custom ]] && source ${HOME}/.bashrc_custom
 
 # misc
