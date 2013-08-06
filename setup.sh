@@ -12,4 +12,4 @@ function realpath() {
 dotfiles_dir=$(realpath $(dirname $0))
 ln -sf ${dotfiles_dir}/.emacs.d ${HOME}
 ln -s ${dotfiles_dir}/.screenrc ${HOME}
-ln -s ${dotfiles_dir}/.local.bash ${HOME}
+ln -s ${dotfiles_dir}/.bashrc_custom ${HOME}
